@@ -1,0 +1,32 @@
+{
+  "name": "trabalho_final_fullstack_04_2026",
+  "version": "1.0.0",
+  "description": "Sistema web para gerenciamento de inscrições em competições esportivas, permitindo o cadastro de atletas, visualização de modalidades e realização de inscrições de forma simples e organizada, utilizando Node.js, Express, MySQL e React.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gameprei/Trabalho_Final_FullStack_04_2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gameprei/Trabalho_Final_FullStack_04_2026/issues"
+  },
+  "homepage": "https://github.com/gameprei/Trabalho_Final_FullStack_04_2026#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
